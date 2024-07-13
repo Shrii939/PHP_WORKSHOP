@@ -26,11 +26,7 @@ session_start();
         if (isset($_GET['query'])) {
             $search_query = $_GET['query'];
         }
-
-        $sort_by = "name";
-        if (isset($_GET['sort'])) {
-            $sort_by = $_GET['sort'];
-        }
+            
 
         // SQL select statement code comes here
         // Execute the SQL statement and check for results code comes here
